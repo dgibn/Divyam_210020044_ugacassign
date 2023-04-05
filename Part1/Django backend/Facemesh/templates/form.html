@@ -1,0 +1,12 @@
+
+
+<div class="container">
+    <form method="post">
+        <fieldset>
+            <legend>Form</legend>
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit" class="btn btn-primary">Chus</button>
+        </fieldset>
+    </form>
+</div>
